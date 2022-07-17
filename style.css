@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto+Mono';
+}
+
+#payment-form {
+    padding-top: 50px;
+}
+
+.wrapper {
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: solid 1px #DDD;
+    border-radius: 5px;
+
+}
+
+.container_card_img {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card_img {
+    width: 40px;
+}
+
+#front_card_container {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    margin: auto;
+    background: #DDD;
+    position: relative;
+}
+
+.card__back {
+    width: 300px;
+    height: 130px;
+    border-radius: 10px;
+    /*margin: auto;*/
+    background-color: #c9c9c9;
+    margin-top: -100px;
+    margin-left: 180px;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.line {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.front_card {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.add_img_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_card {
+    width: 45px;
+}
+
+.img_chip {
+    width: 35px;
+}
+
+.front_card_number_text {
+    color: white;
+    font-size: 24px;
+    clear: both;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+
+}
+
+.info_valid {
+    padding-left: 5px;
+}
+
+.valid {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 13px;
+}
+
+.front_card_valid_result {
+    font-size: 18px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: white;
+}
+
+.front_card_container_fullName_valid {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.front_card_fullName {
+    color: white;
+
+}
+
+#back_card_container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.back_card_date_code {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp_info {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 18px;
+}
+
+
+.inp_date {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 18px;
+
+}
+
+.inp_code {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 18px;
+}
+
+
+.text {
+    margin-bottom: 1px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#btn {
+    text-align: center;
+}
+
+.btn_submit {
+    width: 25%;
+    background-color: #08c;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.text_code {
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 190px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.code {
+    padding-top: 12px;
+    font-size: 18px;
+}

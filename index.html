@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="payment-form">
+    <div class="wrapper">
+
+        <div class="container_card">
+
+            <section class="container_card_img">
+                <div>
+                    <img class="card_img" src="img/visa.png" alt="img_visa">
+                </div>
+                <div>
+                    <img class="card_img" src="img/paypal.png" alt="img_paypal">
+                </div>
+                <div>
+                    <img class="card_img" src="img/maestro(1).png" alt="img_maestro">
+                </div>
+                <div>
+                    <img class="card_img" src="img/american-express.png" alt="img_american-express">
+                </div>
+                <div>
+                    <img class="card_img" src="img/jcb.png" alt="img_jcb">
+                </div>
+
+                <div>
+                    <img class="card_img" src="img/Mastercard_icon-icons.com_60554.png" alt="img-maestro">
+                </div>
+            </section>
+
+            <section id="front_card_container">
+                <div class="front_card">
+
+                    <div class="add_img_card">
+                        <div>
+                            <img class="img_chip" src="img/chip(1).png" alt="img-chip">
+                        </div>
+
+                        <div>
+                            <img class="img_card" src="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <p class="front_card_number_text">•••• •••• •••• ••••</p>
+                    </div>
+
+                    <section class="front_card_container_fullName_valid">
+                        <div>
+                            <p class="front_card_fullName">DUPONT</p>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <p class="front_card_valid valid">valid</p>
+                                <p class="valid">date</p>
+                            </div>
+                            <div class="info_valid">
+                                <p class="valid">MM/YY</p>
+                                <p class="front_card_valid_result">••/••</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+            <div class="card__back">
+                <div class="line">
+                    <div class="text_code">
+                        <p class="code">•••</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <section id="back_card_container">
+                <div class="back_card_number">
+                    <p class="text">Credit Card Number</p>
+                    <label>
+                        <input placeholder="•••• •••• •••• ••••" class="inp_cart_number inp_info inp_number input"
+                               maxlength="16"
+                               minlength="16">
+                    </label>
+                </div>
+
+                <div class="back_card_date_code">
+                    <div>
+                        <p class="text">Expiration Date</p>
+                        <label>
+                            <input class="back_card_date inp_date input" placeholder="••/••" maxlength="4">
+                        </label>
+                    </div>
+
+                    <div>
+                        <p class="text">Code CVC</p>
+                        <label>
+                            <input class="back_card_code inp_code input" placeholder="•••" maxlength="3">
+                        </label>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text">Full Name</p>
+                    <label>
+                        <input placeholder="DUPONT" class="inp_back_card_fullName inp_info  inp_fullName input"
+                               maxlength="19">
+                    </label>
+                </div>
+            </section>
+
+            <section id="btn">
+                <button class="btn_submit" disabled>Submit</button>
+            </section>
+
+        </div>
+    </div>
+</form>
+
+<script src="style.js"></script>
+</body>
+</html>
